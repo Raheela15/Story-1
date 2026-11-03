@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: #FBF9F5;
+    color: #1C1917;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+  }
+}
+
+.font-urdu {
+  font-family: "Noto Nastaliq Urdu", var(--font-serif);
+  line-height: 2.35;
+}
+
+.font-urdu-heading {
+  font-family: "Noto Nastaliq Urdu", var(--font-serif);
+  line-height: 1.85;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "The Boy Who Never Gave Up — Interactive Audio Edition",
+  "description": "An illustrated editorial reading and narrated audio edition of 'The Boy Who Never Gave Up', featuring Gemini 3.8 Flash TTS voice design, dual-speaker dramatized scenes, and an interactive mathematics practice desk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
